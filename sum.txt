@@ -1,0 +1,9 @@
+echo "enter number 1"
+read number1
+echo " enter number 2"
+read number2
+
+echo " number 1 is $number1 number 2 is $number2"
+
+total=`expr $number1 + $number2`
+echo " Total of 2 number is $total "
